@@ -63,7 +63,7 @@
         <!--END_MODULE LOCATION-->
 
         <!--BEGIN_MODULE BLUETOOTH-->
-        <config-file target="config.xml" parent="/*">
+        <!-- <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth">
                 <param name="ios-package" value="Diagnostic_Bluetooth" />
                 <param name="onload" value="true" />
@@ -81,7 +81,7 @@
 
         <config-file target="*-Info.plist" parent="NSBluetoothPeripheralUsageDescription">
             <string>This app requires bluetooth access to function properly.</string>
-        </config-file>
+        </config-file> -->
         <!--END_MODULE BLUETOOTH-->
 
         <!--BEGIN_MODULE WIFI-->
@@ -291,7 +291,7 @@
         <!--END_MODULE LOCATION-->
 
         <!--BEGIN_MODULE BLUETOOTH-->
-        <config-file target="config.xml" parent="/*">
+        <!-- <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth" >
                 <param name="android-package" value="cordova.plugins.Diagnostic_Bluetooth"/>
                 <param name="onload" value="true" />
@@ -306,7 +306,7 @@
             <merges target="cordova.plugins.diagnostic.bluetooth" />
         </js-module>
 
-        <source-file src="src/android/Diagnostic_Bluetooth.java" target-dir="src/cordova/plugins" />
+        <source-file src="src/android/Diagnostic_Bluetooth.java" target-dir="src/cordova/plugins" /> -->
         <!--END_MODULE BLUETOOTH-->
 
         <!--BEGIN_MODULE WIFI-->
@@ -435,7 +435,7 @@
         <!--END_MODULE LOCATION-->
 
         <!--BEGIN_MODULE BLUETOOTH-->
-        <config-file target="config.xml" parent="/*">
+        <!-- <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Bluetooth" >
                 <param name="windows-package" value="cordova.plugins.Diagnostic_Bluetooth"/>
             </feature>
@@ -447,7 +447,7 @@
 
         <js-module src="src/windows/diagnosticProxy.bluetooth.js" name="diagnosticProxy.bluetooth">
             <merges target="" />
-        </js-module>
+        </js-module> -->
         <!--END_MODULE BLUETOOTH-->
 
         <!--BEGIN_MODULE WIFI-->
